@@ -21,7 +21,7 @@
                 <a href="index.html" class="nav-item nav-link active">About myself</a>
                 <a href="bio.html" class="nav-item nav-link">Biography</a>
                 <a href="achievements.html" class="nav-item nav-link">Achievements</a>
-                <a href="reg_form.html.html" class="nav-item nav-link">Registration Form</a>
+                <a href="reg_form.html" class="nav-item nav-link">Registration Form</a>
             </div>
             <form class="form-inline ml-auto">
                 <input type="text" class="form-control mr-sm-2" placeholder="Search">
@@ -31,7 +31,59 @@
     </nav>
     <div></div>
 
-    </div>
+        <div>
+            <h5>Registration form</h5>
+        </div>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputPassword4">Password</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputAddress">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="form-group">
+                <label for="inputAddress2">Address 2</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputCity">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputState">Country</label>
+                    <select id="inputState" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>Germany</option>
+                        <option>United States</option>
+                        <option>Russia</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="inputZip">Zip</label>
+                    <input type="text" class="form-control" id="inputZip">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        Please confirm you agree with the general policy
+                    </label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign in</button>
+        </form>
+
+
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
