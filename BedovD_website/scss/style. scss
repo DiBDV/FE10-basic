@@ -1,6 +1,0 @@
-body{
-	font-size: 50 px;
-	div{
-		font-size: 30 px;
-	}
-}	
