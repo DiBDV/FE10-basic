@@ -1,3 +1,1 @@
-# FE10-basic
-
-My personal web site with bio and achievements
+#My personal web site with bio and achievements
