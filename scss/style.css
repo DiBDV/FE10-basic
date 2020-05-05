@@ -1,0 +1,19 @@
+body {
+  font-size: 50 px;
+}
+
+body div {
+  font-size: 30 px;
+}
+
+ol {
+  counter-reset: item
+}
+li {
+  display: block
+}
+li:before {
+  content: counters(item, ".") " ";
+  counter-increment: item
+}
+/*# sourceMappingURL=style.css.map */
