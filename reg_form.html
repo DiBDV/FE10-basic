@@ -11,7 +11,7 @@
 
 <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
-        <a href="#" class="navbar-brand">Dmitrii Bedov</a>
+        <a href="index.html" class="navbar-brand">Dmitrii Bedov</a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -22,6 +22,7 @@
                 <a href="bio.html" class="nav-item nav-link">Biography</a>
                 <a href="achievements.html" class="nav-item nav-link">Achievements</a>
                 <a href="reg_form.html" class="nav-item nav-link">Registration Form</a>
+                <a href="FE_projects.html" class="nav-item nav-link">FrondEnd Projects</a>
             </div>
             <form class="form-inline ml-auto">
                 <input type="text" class="form-control mr-sm-2" placeholder="Search">
@@ -29,13 +30,19 @@
             </form>
         </div>
     </nav>
-    <div></div>
+    <br/>
+    <br />
+    <br />
 
-        <div>
+        <div class="container">
             <h5>Registration form</h5>
-        </div>
+
         <form>
             <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="validationCustomUsername">Username</label>
+                    <input type="text" class="form-control" id="inputUsername">
+                </div>
                 <div class="form-group col-md-6">
                     <label for="inputEmail4">Email</label>
                     <input type="email" class="form-control" id="inputEmail4">
@@ -81,8 +88,9 @@
                 </div>
             </div>
             <button type="submit" class="btn btn-primary">Sign in</button>
+            <button type="reset" class="btn btn-primary">Reset</button>
         </form>
-
+    </div>
 
     
     <!-- Optional JavaScript -->
